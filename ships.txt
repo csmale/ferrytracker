@@ -1,0 +1,47 @@
+Cross-channel ferries known as per December 2024
+
+Dover-Calais/Dunkerque:
+MMSI    Line    Name
+227022800   DFDS    Cote des Dunes
+228085000   DFDS    Cote des Flandres
+228417600   DFDS    Cote d'Opale
+235010500   DFDS    Dover Seaways
+235009590   DFDS    Delft Seaways
+235028825   DFDS    Dunkerque Seaways
+209479000   Irish   Oscar Wilde
+209093000   Irish   Isle of Inishmore
+209490000   P&O     Spirit of France
+210385000   P&O     P&O Pioneer
+210384000   P&O     P&O Liberte
+
+Harwich-Hoek van Holland
+235080274   Stena   Stena Britannica
+244758000   Stena   Stena Hollandica
+
+Hull-Europoort
+244980000   P&O     Pride of Rotterdam
+311062900   P&O     Pride of Hull
+
+Newcastle-Ijmuiden
+220489000   DFDS    Princess Seaways
+220449000   DFDS    King Seaways
+
+Newhaven-Dieppe
+228233600   DFDS    Cote d'Albatre
+
+Brittany Ferries routes:
+
+Portsmouth-Caen
+mont st michel
+normandie
+guillaume de normandie
+
+Portsmouth-St Malo
+amorique
+saint-Malo
+
+Portsmouth-Cherbourg/Le Havre
+Santoña
+Salamanca
+Galicia
+Cotentin

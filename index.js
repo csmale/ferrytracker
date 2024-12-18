@@ -6,11 +6,19 @@ dotenv.config();
 import * as mqtt from "mqtt";
 // const mqtt = require('mqtt');
 const mqtt_host = process.env.MQTT_HOST;
+const mqtt_user = process.env.MQTT_USER;
+const mqtt_password = process.env.MQTT_PASSWORD;
+
 const mqtt_options = {
     retain: true,
     qos: 1,
-    reconnectPeriod: 1000
+    reconnectPeriod: 1000,
+    username: mqtt_user,
+    password: mqtt_password
 };
+
+let mmsilist = process.env.MMSI_LIST;
+const mmsis = mmsilist.split(",");
 
 // import * as WebSocket from "ws";
 // const WebSocket = require('ws');
@@ -20,7 +28,7 @@ socket.onopen = function (_) {
     let subscriptionMessage = {
         Apikey: process.env.AISSTREAM_KEY,
         BoundingBoxes: [[[-90, -180], [90, 180]]],
-        FiltersShipMMSI: ["227022800","228085000","228417600","235010500","235009590","235028825","209479000","209093000","209490000","210385000","210384000"], // Optional!
+        FiltersShipMMSI: mmsis, // Optional!
         FilterMessageTypes: ["PositionReport", "ShipStaticData"] // Optional!
     }
     socket.send(JSON.stringify(subscriptionMessage));
