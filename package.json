@@ -1,0 +1,22 @@
+{
+  "name": "ferrytracker",
+  "version": "1.0.0",
+  "description": "Track cross-channel ferries",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "docker build -t csmale/ferrytracker:latest ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "@csmale/ferrytracker"
+  },
+  "author": "colin.smale@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mqtt": "^5.10.3",
+    "ws": "^8.18.0"
+  }
+}
