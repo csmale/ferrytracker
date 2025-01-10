@@ -1,4 +1,4 @@
-Cross-channel ferries known as per December 2024
+Cross-channel ferries known as per January 2025
 
 Dover-Calais/Dunkerque:
 MMSI    Line    Name
@@ -30,19 +30,30 @@ Newhaven-Dieppe
 228233600   DFDS/TMF    Cote d'Albatre
 228244700   DFDS/TMF    Seven Sisters
 
+Poole - Jersey - St Malo
+210287000   DFDS        Levante Jet
+209375000   DFDS        Tarifa Jet
+
+Poole - Jersey
+311001050  Condor      Condor Voyager
+311037300  Condor      Condor Liberation
+
+Portsmouth - Guernsey - Jersey
+308094000  Condor      Commodore Clipper
+
 Brittany Ferries routes:
 
 Portsmouth-Caen
-mont st michel
-normandie
-guillaume de normandie
+227023100   Brittany    Mont Saint Michel
+227273000   Brittany    Normandie
+210374000   Brittany    GuillaumeDeNormandie
 
 Portsmouth-St Malo
-amorique
-saint-Malo
+228263700   Brittany    Armorique
+228457700   Brittany    Saint-Malo
 
 Portsmouth-Cherbourg/Le Havre
-Santoña
-Salamanca
-Galicia
-Cotentin
+228433900   Brittany    Santona
+228408900   Brittany    Salamanca
+228392900   Brittany    Galicia
+228263800   Brittany    Cotentin

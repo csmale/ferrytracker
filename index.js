@@ -13,6 +13,7 @@ const mqtt_options = {
     retain: true,
     qos: 1,
     reconnectPeriod: 1000,
+    reconnectOnConnackError: true,
     username: mqtt_user,
     password: mqtt_password
 };
