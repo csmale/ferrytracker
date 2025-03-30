@@ -1,8 +1,8 @@
 # ferrytracker
 Track cross-channel ferries from AIS data, and forward info via MQTT
 
-Data from aisstream.io
-https://aisstream.io/
+Data is obtained from [aisstream.io](https://aisstream.io/).
+Please set up an account there, and obtain your own API key.
 
 Documentation at https://aisstream.io/documentation
 
